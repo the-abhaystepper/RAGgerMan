@@ -1,0 +1,123 @@
+Anthropic, PBC[8][9] is an American artificial intelligence (AI) public benefit corporation 
+headquartered in San Francisco, California.[10] Its flagship product is Claude, a series of 
+proprietary large language models (LLMs). Anthropic was founded in 2021 with the goal of 
+promoting AI safety by former members of OpenAI, including siblings Daniela Amodei and Dario 
+Amodei, who are president and CEO, respectively.[11] The company is privately held but 
+reportedly plans an initial public offering in 2026. Valued at US$965 billion in a May 2026 
+Series H funding round,[12] Anthropic is one of the world's most valuable AI pure play 
+companies, rivaled by OpenAI.[13]
+
+Anthropic develops the LLM Claude in four tiers: Haiku, Sonnet, Opus, and Fable.[14] Claude 
+is accessible via an online chatbot, an API, and Anthropic's agent harnesses: Claude Code, 
+Cowork, Design, and Science.[15][16] Its model class Claude Mythos is available only to 
+approved US organizations with a cybersecurity and life sciences focus. Anthropic's Project 
+Panama, internally described as an "effort to destructively scan all the books in the world", 
+provides training data for Claude.[17] Before Project Panama, Anthropic downloaded pirated 
+books and was sued, settling in 2025 a copyright infringement lawsuit from authors for $1.5 
+billion.[18]
+
+Anthropic conducts LLM research including on mechanistic interpretability, safety, alignment, 
+and societal impact. Notable researchers working at Anthropic include Andrej Karpathy, John 
+Jumper, Jan Leike, Chris Olah and Amanda Askell.
+
+Anthropic partners with Palantir to provide Claude to US federal agencies including the 
+Department of Defense (DoD) and the Intelligence Community; Claude was used in the 2026 Iran 
+war and the 2026 United States intervention in Venezuela.[19] In February 2026, the DoD 
+demanded the ability to use Claude for all lawful purposes, but Anthropic refused to drop 
+restrictions against mass domestic surveillance and fully autonomous weapons. The dispute led 
+the Trump administration to phase out Anthropic products from government use, a decision 
+blocked by a preliminary injunction from a federal judge who called it "First Amendment 
+retaliation".[20] Throughout 2026, Anthropic accused Chinese competitors including DeepSeek, 
+Moonshot AI, Alibaba Cloud, and Z.ai of distilling Claude for their models.
+
+Anthropic was founded in January 2021[1] by seven former employees of OpenAI, including 
+siblings Daniela Amodei and Dario Amodei, the latter of whom was OpenAI's Vice President of 
+Research.[21][22] They raised $124 million in May 2021.[23] In the summer of 2022, Anthropic 
+finished training the first version of Claude but did not immediately release it, citing a 
+need for further internal safety testing and a desire to avoid initiating a potentially 
+hazardous race to develop increasingly powerful AI systems.[24] It was released in March 2023.
+[25]
+
+In 2024, Anthropic hired several notable employees from OpenAI, including Jan Leike and John 
+Schulman.[26] In May 2025, the company announced Claude 4. It also introduced new API 
+capabilities, including the Model Context Protocol (MCP) connector.[27] The company hosted 
+its inaugural developer conference that month.[28] Also in May, Anthropic launched a web 
+search API that enables Claude to access real-time information from the internet.[29] Claude 
+Code, Anthropic's coding assistant, transitioned from research preview to general 
+availability.[27]
+
+In July 2025, Anthropic signed a two-year contract with the US Department of Defense for $200 
+million. Anthropic LLMs became integrated with the Pentagon's classified intelligence 
+networks and with Palantir's data platform. Anthropic stipulated that the Pentagon not use 
+its technologies for mass surveillance of Americans, or to create fully autonomous weapons.
+[30] Amodei clarified that Anthropic supports the use of AI in "lawful foreign intelligence 
+and counterintelligence missions" and partially autonomous weapons, such as those used in the 
+Russo-Ukrainian war.[31]
+
+In September 2025, Anthropic announced that it would stop selling its products to groups 
+majority-owned by Chinese, Russian, Iranian, or North Korean entities due to national 
+security concerns.[32] In October 2025, Anthropic announced a cloud partnership with Google, 
+giving it access to up to one million of Google's custom Tensor Processing Units (TPUs), 
+potentially adding more than one gigawatt of AI compute capacity by 2026.[33] In November, 
+Nvidia and Microsoft were expected to invest up to $15 billion in Anthropic, and Anthropic 
+said it would buy $30 billion of computing capacity from Microsoft Azure running on Nvidia AI 
+systems.[34]
+
+In November 2025, Anthropic said that hackers sponsored by the Chinese government used Claude 
+to perform automated cyberattacks against around 30 global organizations. The hackers 
+bypassed Anthropic's safeguards by pretending it was for defensive testing.[35][36] In 
+December 2025, Anthropic acquired Bun to improve Claude Code's speed and stability.[37] The 
+same month, Anthropic signed a multi-year, $200 million partnership with Snowflake Inc. to 
+make Claude models available through that company's platform.[38]
+
+Claude was reportedly used during the 2026 United States intervention in Venezuela.[30] In 
+February 2026, Anthropic aired two commercials during Super Bowl LX[39][40] as part of a 
+broader marketing campaign called "A Time and a Place", with four ads created by Mother. Each 
+ad depicts AI assistants suddenly pivoting to promoting a fictional product in the middle of 
+a conversation. Anthropic said that Claude will stay ad-free, in contrast to its competitor 
+OpenAI, which introduced ads to the free version of ChatGPT.[40] The same month, Anthropic 
+donated $20 million to Public First Action, an AI regulation advocacy group.[41]
+
+On February 23, 2026, Anthropic accused Chinese competitors DeepSeek, Moonshot AI, and 
+MiniMax Group of knowledge distillation "attacks" in violation of Anthropic's terms of 
+service. Anthropic alleged the companies in total generated over 16 million chats with Claude 
+using around 24,000 fraudulent accounts, which were then used as training data.[42] In June 
+2026, Anthropic accused Alibaba Cloud of similar practices.[43]
+
+In 2026, Anthropic refused the United States Department of Defense's (DoD) demand to remove 
+contractual restrictions prohibiting the use of its AI technology for surveillance and 
+autonomous weapons. After the refusal, the DoD designated the company a "supply chain risk" 
+and barred all U.S. military private contractors, suppliers, and partners from doing business 
+with the firm (see Anthropic–United States Department of Defense dispute).[44][45] At the 
+outset of the 2026 Iran war, the US military used Claude to identify and rank targets in Iran 
+according to their strategic importance, to generate strike sequences, and to write legal 
+justifications for the strikes.[30]
+
+In May 2026, Anthropic announced a deal with xAI for use of its Colossus 1 data center to 
+expand its model capacity.[46][47] On May 18, the company acquired software startup Stainless 
+for an undisclosed sum.[48] It also made a $1.8 billion cloud computing deal with Akamai 
+Technologies.[49] Also in May, The New York Times reported that Anthropic was seeking to file 
+an initial public offering (IPO), with a target of debuting in the fall of 2026.[50] On June 
+1, Anthropic announced it had filed confidential IPO papers with the United States Securities 
+and Exchange Commission.[51]
+
+On April 7, 2026, Anthropic announced Claude Mythos as its most advanced model. With 
+capabilities in cybersecurity and biosecurity, it was not planned for public release.[52][53]
+[54] Fable 5, a "Mythos-class model" with extended guardrails around these topics, was also 
+announced on June 9.[55] On June 12, Anthropic suspended all access to its Claude Fable 5 and 
+Mythos 5 models due to national security concerns from US government authorities.[56] On June 
+26, the US government reversed part of its earlier restrictions, allowing Anthropic to 
+provide its Claude Mythos 5 model to selected users, including more than 100 approved US 
+organizations and vetted foreign nationals.[57] The ban was lifted on June 30, and user 
+access to Claude Fable 5 and Mythos 5 was restored on July 1.[58]
+
+In July 2026, TeraWulf Inc. announced that Anthropic had signed a 20-year lease for a data 
+center in development on a campus called Justified Data in Hawesville, Kentucky.[59] AMD 
+announced a partnership with Anthropic for 2 gigawatts of their AMD Instinct MI450 GPUs, with 
+AMD adopting Claude and investing up to $5 billion in Anthropic.[60]
+
+In August 2026, Anthropic agreed to a cloud-computing agreement with Nscale reportedly valued 
+at approximately $45 billion. Under the agreement, Anthropic would lease about 460 megawatts 
+of computing capacity at an Nscale data center development in West Virginia, which is 
+expected to become operational in late 2027. The facility is expected to use Nvidia's Vera 
+Rubin chips.

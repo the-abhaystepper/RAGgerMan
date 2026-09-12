@@ -1,0 +1,61 @@
+OpenAI is an American artificial intelligence (AI) public benefit corporation (PBC) 
+headquartered in San Francisco. It develops proprietary generative AI models, particularly 
+its generative pre-trained transformer (GPT) series of large language models. Its release of 
+ChatGPT in November 2022 has been credited with catalyzing the AI boom; as of September 2026, 
+ChatGPT is the fifth-most-visited website globally.[9][10] OpenAI also releases the GPT Image 
+models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a 
+post-money valuation of US$852 billion,[11] making it one of the most valuable AI pure play 
+companies in the world, rivalled only by Anthropic.[12]
+
+OpenAI was founded in 2015 in Delaware as a nonprofit, with Elon Musk and Sam Altman as 
+co-chairs; Musk resigned in 2018. A for-profit subsidiary was created in 2019, and a 2025 
+restructuring converted the subsidiary into OpenAI Group PBC, that is 26% owned by the 
+nonprofit OpenAI Foundation. Microsoft has invested over $13 billion into OpenAI.[13] OpenAI 
+partners with the US government via the Stargate Project infrastructure venture, and with the 
+Department of Defense, Los Alamos National Laboratory, and arms company Anduril Industries. 
+Former OpenAI personnel have founded competing AI companies including Anthropic, Safe 
+Superintelligence Inc., SpaceXAI, and Thinking Machines Lab.[14] In June 2026 it filed for an 
+initial public offering.
+
+OpenAI has faced multiple lawsuits for alleged deaths linked to its chatbots and copyright 
+infringement against authors and media companies. In November 2023, OpenAI's board removed 
+Sam Altman as CEO, citing a lack of confidence, but reinstated him five days later after a 
+board reconstruction. In 2024, roughly half of OpenAI's AI safety researchers left, citing 
+deprioritization of safety.[15][16] Between May and July 2026, around 1,000 OpenAI agents 
+undergoing cybersecurity testing gained unintended internet access and conducted a series of 
+autonomous cyberattacks. In September, OpenAI claimed it used around 10,000 agents to solve 
+the Navier–Stokes existence and smoothness problem, a Millennium Prize Problem in 
+mathematics, leading however to a controversy over priority.
+
+In December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc.,[17] by Elon Musk, Sam Altman, Ilya Sutskever, 
+Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, 
+with Musk and Altman as the co-chairs.[18][19] A total of $1 billion in capital was pledged by Musk, Altman, Greg Brockman, Reid 
+Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), and Infosys.[20][21] However, the actual capital collected 
+significantly lagged pledges. According to tax filings, only $133 million had been received by 2021.[22]
+
+Musk stated in 2015 that he was partly motivated by concerns about AI safety and existential risk from artificial general 
+intelligence.[23][18] OpenAI stated that "it's hard to fathom how much human-level AI could benefit society", and that it is 
+equally difficult to comprehend "how much it could damage society if built or used incorrectly".[24] The startup also wrote that 
+AI "should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as possible",
+[24] and that "because of AI's surprising history, it's hard to predict when human-level AI might come within reach. When it does, 
+it'll be important to have a leading research institution which can prioritize a good outcome for all over its own self-interest."
+[25] Altman expected a decades-long project that eventually surpasses human intelligence.[26]
+
+In its founding charter, OpenAI defined its mission as ensuring that artificial general intelligence (AGI) "benefits all of 
+humanity",[27] and stated an intention to collaborate openly with other institutions by making certain patents and research 
+publicly available, but later restricted access to its most capable models, citing competitive and safety concerns.[28][24][18] 
+OpenAI was initially run from Brockman's living room.[29] In September 2016, it moved to the Pioneer Building in the Mission 
+District, San Francisco.[30][31][32]
+
+Brockman met with Yoshua Bengio, one of the "founding fathers" of deep learning, and drew up a list of great AI researchers.[18] 
+Brockman was able to hire nine of them as the first employees in December 2015.[18] OpenAI did not pay AI researchers salaries 
+comparable to those of Facebook or Google.[18] It also did not pay stock options which AI researchers typically get. Nevertheless, 
+OpenAI spent $7 million on its first 52 employees in 2016.[33] OpenAI's potential and mission drew these researchers to the firm; 
+a Google employee said he was willing to leave Google for OpenAI "partly because of the very strong group of people and, to a very 
+large extent, because of its mission."[18] OpenAI co-founder Wojciech Zaremba stated that he turned down "borderline crazy" offers 
+of two to three times his market value to join OpenAI instead.[18]
+
+In April 2016, OpenAI released a public beta of "OpenAI Gym", its platform for reinforcement learning research.[34] Nvidia gifted 
+its first DGX-1 supercomputer to OpenAI in August 2016 to help it train larger and more complex AI models with the capability of 
+reducing processing time from six days to two hours.[35][36] In December 2016, OpenAI released "Universe", a software platform for 
+measuring and training an AI's general intelligence across the world's supply of games, websites, and other applications.
