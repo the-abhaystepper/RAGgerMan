@@ -1,3 +1,4 @@
+
 import torch
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
@@ -5,21 +6,24 @@ from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_chroma import Chroma
 
 
-def load_documents(doc_path="docs"):
-
+"""
+Function used to load in the documents from a local folder "./docs"
+Instantiates the DirectoryLoader class, invokes the load method, and then returns the loaded documents
+"""
+def load_documents(doc_path):
     loader = DirectoryLoader(
         doc_path,
         glob="*.txt",
         loader_cls=TextLoader,
         loader_kwargs={"encoding": "utf-8"},
     )
-
     documents = loader.load()
-    print(len(documents))
-
     return documents
 
-
+""" 
+Function used to split the document text into chunks
+Instantiates the CharacterTextSplitter class, invokes the split_documents method, and then returns the chunks
+"""
 def split_documents(documents: list, chunk_size: int, overlap: int):
 
     text_splitter = CharacterTextSplitter(
@@ -31,8 +35,11 @@ def split_documents(documents: list, chunk_size: int, overlap: int):
 
     return chunks
 
-
-def embed_and_store(chunks: list, model: str, store_directory: str):
+"""
+Function used to embed the document chunks and add them to a vectorstore
+Instantiates the HuggingFaceEmbeddings class with embedding model, then uses the Chroma.from_documents method to embed and store the chunks in the ChromaDB vector database
+"""
+def embed_and_store(chunks: list, store_directory: str):
 
     model_id = "ibm-granite/granite-embedding-small-english-r2"
     embedding_model = HuggingFaceEmbeddings(
@@ -52,9 +59,7 @@ def embed_and_store(chunks: list, model: str, store_directory: str):
 
 
 def main():
-
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-
+    #Instantiating the persistant paths, embedding model and ChromaDB
     model_id = "ibm-granite/granite-embedding-small-english-r2"
     embedding_model = HuggingFaceEmbeddings(
         model_name=model_id,
@@ -62,7 +67,7 @@ def main():
         encode_kwargs={"normalize_embeddings": True}
     )
 
-    store_dir = "db/ChromaDB"
+    store_dir = "db/chroma_db"
     document_path = "docs"
     vectorstore = Chroma(
         persist_directory= store_dir,
@@ -70,12 +75,12 @@ def main():
         collection_metadata={"hnsw:space": "cosine"}
     )
 
-
+    #Full ingestion pipeline
     documents = load_documents(doc_path=document_path)
 
     chunks = split_documents(documents=documents, chunk_size=800, overlap=0)
 
-    vectorstore = embed_and_store(chunks=chunks, model=embedding_model, store_directory=store_dir)
+    vectorstore = embed_and_store(chunks=chunks, store_directory=store_dir)
     return vectorstore
     
     
