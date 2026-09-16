@@ -13,7 +13,7 @@ from langchain.messages import HumanMessage, SystemMessage
 
 
 #Instantiating the persistant paths, embedding model and ChromaDB
-store_dir = "db/chroma_db"
+store_dir = "db/ChromaDB"
 
 model_id = "ibm-granite/granite-embedding-small-english-r2"
 embedding_model = HuggingFaceEmbeddings(
@@ -30,13 +30,14 @@ db = Chroma(
 
 
 #Instantiating the ChromaDB retriever to perform the similarity search for the user query
-user_query = "From where did OpenAI get its dgx-1 supercomputer?"
+user_query = "what is the transformer architecture?"
 
 retriever = db.as_retriever(
-    search_type="similarity_score_threshold",
+    search_type="mmr",
     search_kwargs={
-        "k": 3,
-        "score_threshold": 0.3
+        "k": 5,
+        "fetch_k": 10,
+        "lambda_mult": 0.5
     }
 )
 
@@ -44,7 +45,7 @@ retrieved_docs = retriever.invoke(user_query)
 
 
 #Loading in the Chat Model for text generation
-generation_model_id = "google/gemma-3-270m-it"
+generation_model_id = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 llm = HuggingFacePipeline.from_model_id(
     model_id=generation_model_id,

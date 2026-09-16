@@ -1,8 +1,8 @@
-
+from jinja2 import loaders
+from langchain_pymupdf4llm import PyMuPDF4LLMLoader
 import torch
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_text_splitters import CharacterTextSplitter
-from langchain_community.document_loaders import TextLoader, DirectoryLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 
 
@@ -11,12 +11,12 @@ Function used to load in the documents from a local folder "./docs"
 Instantiates the DirectoryLoader class, invokes the load method, and then returns the loaded documents
 """
 def load_documents(doc_path):
-    loader = DirectoryLoader(
-        doc_path,
-        glob="*.txt",
-        loader_cls=TextLoader,
-        loader_kwargs={"encoding": "utf-8"},
+    loader = PyMuPDF4LLMLoader(
+        file_path="docs/pdfs/attention-is-all-you-need.pdf",
+        mode="single",
+        pages_delimiter="\n\f"
     )
+
     documents = loader.load()
     return documents
 
@@ -26,12 +26,13 @@ Instantiates the CharacterTextSplitter class, invokes the split_documents method
 """
 def split_documents(documents: list, chunk_size: int, overlap: int):
 
-    text_splitter = CharacterTextSplitter(
+    recursive_text_splitter = RecursiveCharacterTextSplitter(
+        separators=["\n\n", "\n", ".", " "],
         chunk_size=chunk_size,
         chunk_overlap=overlap,
     )
 
-    chunks = text_splitter.split_documents(documents)
+    chunks = recursive_text_splitter.split_documents(documents)
 
     return chunks
 
@@ -67,8 +68,8 @@ def main():
         encode_kwargs={"normalize_embeddings": True}
     )
 
-    store_dir = "db/chroma_db"
-    document_path = "docs"
+    store_dir = "db/ChromaDB"
+    document_path = "docs/pdfs"
     vectorstore = Chroma(
         persist_directory= store_dir,
         embedding_function= embedding_model,
@@ -78,7 +79,7 @@ def main():
     #Full ingestion pipeline
     documents = load_documents(doc_path=document_path)
 
-    chunks = split_documents(documents=documents, chunk_size=800, overlap=0)
+    chunks = split_documents(documents=documents, chunk_size=500, overlap=0)
 
     vectorstore = embed_and_store(chunks=chunks, store_directory=store_dir)
     return vectorstore
