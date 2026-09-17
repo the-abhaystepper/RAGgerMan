@@ -30,7 +30,7 @@ db = Chroma(
 
 
 #Instantiating the ChromaDB retriever to perform the similarity search for the user query
-user_query = "what is the transformer architecture?"
+user_query = "What is the formula for multi-head attention?"
 
 retriever = db.as_retriever(
     search_type="mmr",

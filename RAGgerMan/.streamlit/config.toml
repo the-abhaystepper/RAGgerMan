@@ -1,0 +1,11 @@
+[server]
+fileWatcherType = "none"
+runOnSave = false
+address = "127.0.0.1"
+folderWatchBlacklist = ["db", "db/ChromaDB", "__pycache__", ".cache"]
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = false
